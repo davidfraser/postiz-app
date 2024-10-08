@@ -17,6 +17,7 @@ import { LinkedinPageProvider } from '@gitroom/nestjs-libraries/integrations/soc
 import { ThreadsProvider } from '@gitroom/nestjs-libraries/integrations/social/threads.provider';
 import { DiscordProvider } from '@gitroom/nestjs-libraries/integrations/social/discord.provider';
 import { SlackProvider } from '@gitroom/nestjs-libraries/integrations/social/slack.provider';
+import { BlueskyProvider } from '@gitroom/nestjs-libraries/integrations//social/bluesky.provider';
 
 const socialIntegrationList = [
   new XProvider(),
@@ -32,6 +33,7 @@ const socialIntegrationList = [
   new DribbbleProvider(),
   new DiscordProvider(),
   new SlackProvider(),
+  new BlueskyProvider(),
 ];
 
 const articleIntegrationList = [
